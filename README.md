@@ -1,5 +1,3 @@
-# Getting Started
+# MSSC Beer Service
 
-### Reference Documentation
-For further reference, please consider the following sections:
-
+Spring Boot Microservice
