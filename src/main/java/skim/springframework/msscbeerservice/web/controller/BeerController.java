@@ -1,6 +1,7 @@
 package skim.springframework.msscbeerservice.web.controller;
 
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
@@ -27,12 +28,12 @@ public class BeerController {
     @PostMapping
     public ResponseEntity<BeerDto> saveNewBeer(@RequestBody @Validated BeerDto beerDto) {
 
-        return new ResponseEntity<>(beerService.saveNewBeer(beerDto), HttpStatus.OK);
+        return new ResponseEntity<>(beerService.saveNewBeer(beerDto), HttpStatus.CREATED);
     }
 
     @PutMapping("/{beerId}")
     public ResponseEntity<BeerDto> updateBeerById(@PathVariable("beerId") UUID beerId, @RequestBody @Validated BeerDto beerDto) {
 
-        return new ResponseEntity<>(beerService.updateBeer(beerId, beerDto), HttpStatus.OK);
+        return new ResponseEntity<>(beerService.updateBeer(beerId, beerDto), HttpStatus.NO_CONTENT);
     }
 }
