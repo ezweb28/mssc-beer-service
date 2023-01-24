@@ -7,7 +7,7 @@ import skim.springframework.msscbeerservice.repositories.BeerRepository;
 
 import java.math.BigDecimal;
 
-@Component
+//@Component
 public class BeerLoader implements CommandLineRunner {
 
     public static final String BEER_1_UPC = "0631234200036";
