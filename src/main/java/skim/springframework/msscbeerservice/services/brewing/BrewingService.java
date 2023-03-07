@@ -1,4 +1,4 @@
-package skim.springframework.msscbeerservice.services;
+package skim.springframework.msscbeerservice.services.brewing;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
