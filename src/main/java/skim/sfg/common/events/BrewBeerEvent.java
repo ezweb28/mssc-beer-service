@@ -1,4 +1,4 @@
-package skim.springframework.msscbeerservice.events;
+package skim.sfg.common.events;
 
 import lombok.NoArgsConstructor;
 import skim.springframework.msscbeerservice.web.model.BeerDto;
