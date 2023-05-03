@@ -1,10 +1,9 @@
 package skim.springframework.msscbeerservice.services;
 
 import org.springframework.data.domain.PageRequest;
-import org.springframework.http.ResponseEntity;
-import skim.springframework.msscbeerservice.web.model.BeerDto;
-import skim.springframework.msscbeerservice.web.model.BeerPagedList;
-import skim.springframework.msscbeerservice.web.model.BeerStyleEnum;
+import skim.sfg.brewery.model.BeerDto;
+import skim.sfg.brewery.model.BeerPagedList;
+import skim.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 

@@ -10,9 +10,9 @@ import skim.springframework.msscbeerservice.domain.Beer;
 import skim.springframework.msscbeerservice.repositories.BeerRepository;
 import skim.springframework.msscbeerservice.web.controller.NotFoundException;
 import skim.springframework.msscbeerservice.web.mappers.BeerMapper;
-import skim.springframework.msscbeerservice.web.model.BeerDto;
-import skim.springframework.msscbeerservice.web.model.BeerPagedList;
-import skim.springframework.msscbeerservice.web.model.BeerStyleEnum;
+import skim.sfg.brewery.model.BeerDto;
+import skim.sfg.brewery.model.BeerPagedList;
+import skim.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 import java.util.stream.Collectors;

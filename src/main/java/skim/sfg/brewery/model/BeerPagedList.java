@@ -1,4 +1,4 @@
-package skim.springframework.msscbeerservice.web.model;
+package skim.sfg.brewery.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

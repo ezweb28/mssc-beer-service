@@ -1,7 +1,7 @@
-package skim.sfg.common.events;
+package skim.sfg.brewery.model.events;
 
 import lombok.*;
-import skim.springframework.msscbeerservice.web.model.BeerDto;
+import skim.sfg.brewery.model.BeerDto;
 
 import java.io.Serializable;
 

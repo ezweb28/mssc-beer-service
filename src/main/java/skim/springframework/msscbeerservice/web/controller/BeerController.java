@@ -1,16 +1,15 @@
 package skim.springframework.msscbeerservice.web.controller;
 
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import skim.springframework.msscbeerservice.services.BeerService;
-import skim.springframework.msscbeerservice.web.model.BeerDto;
-import skim.springframework.msscbeerservice.web.model.BeerPagedList;
-import skim.springframework.msscbeerservice.web.model.BeerStyleEnum;
+import skim.sfg.brewery.model.BeerDto;
+import skim.sfg.brewery.model.BeerPagedList;
+import skim.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 

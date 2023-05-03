@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 import skim.springframework.msscbeerservice.config.JmsConfig;
 import skim.springframework.msscbeerservice.domain.Beer;
-import skim.sfg.common.events.BrewBeerEvent;
+import skim.sfg.brewery.model.events.BrewBeerEvent;
 import skim.springframework.msscbeerservice.repositories.BeerRepository;
 import skim.springframework.msscbeerservice.services.inventory.BeerInventoryService;
 import skim.springframework.msscbeerservice.web.mappers.BeerMapper;

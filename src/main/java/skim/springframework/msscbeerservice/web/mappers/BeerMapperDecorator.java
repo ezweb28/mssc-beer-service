@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import skim.springframework.msscbeerservice.domain.Beer;
 import skim.springframework.msscbeerservice.services.inventory.BeerInventoryService;
-import skim.springframework.msscbeerservice.web.model.BeerDto;
+import skim.sfg.brewery.model.BeerDto;
 
 public abstract class BeerMapperDecorator implements BeerMapper {
 

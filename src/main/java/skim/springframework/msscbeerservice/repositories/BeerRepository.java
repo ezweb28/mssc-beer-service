@@ -4,7 +4,7 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.jpa.repository.JpaRepository;
 import skim.springframework.msscbeerservice.domain.Beer;
-import skim.springframework.msscbeerservice.web.model.BeerStyleEnum;
+import skim.sfg.brewery.model.BeerStyleEnum;
 
 import java.util.UUID;
 

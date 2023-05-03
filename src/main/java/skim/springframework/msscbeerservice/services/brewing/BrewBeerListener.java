@@ -8,10 +8,10 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 import skim.springframework.msscbeerservice.config.JmsConfig;
 import skim.springframework.msscbeerservice.domain.Beer;
-import skim.sfg.common.events.BrewBeerEvent;
-import skim.sfg.common.events.NewInventoryEvent;
+import skim.sfg.brewery.model.events.BrewBeerEvent;
+import skim.sfg.brewery.model.events.NewInventoryEvent;
 import skim.springframework.msscbeerservice.repositories.BeerRepository;
-import skim.springframework.msscbeerservice.web.model.BeerDto;
+import skim.sfg.brewery.model.BeerDto;
 
 @Service
 @RequiredArgsConstructor
