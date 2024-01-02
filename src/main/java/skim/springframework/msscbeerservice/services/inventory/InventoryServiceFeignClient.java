@@ -10,7 +10,7 @@ import skim.springframework.msscbeerservice.services.inventory.model.BeerInvento
 import java.util.List;
 import java.util.UUID;
 
-@FeignClient(name = "beer-inventory-service")
+@FeignClient(name = "inventory-service", fallback = InventoryServiceFeignClientFailover.class)
 public interface InventoryServiceFeignClient {
 
     @RequestMapping(method = RequestMethod.GET, value = BeerInventoryServiceRestTemplateImpl.INVENTORY_PATH)
